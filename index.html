@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <header id="header">
+            <nav id="nav-bar">
+                <a id="header-img" href="index.html"><img src="Assets/logo.png"></a>
+                <ul>
+                  <li><a class="nav-link" class="active" href="#info">Mobile Information</a></li>
+                  <li><a class="nav-link" href="#features">Features</a></li>
+                  <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav> 
+        </header>
+        <div id="info">
+            <img id="mobile-pic" src="Assets/mobile.jpg" alt="Mobile Picture">
+            <h4 class="center-text">Asus Zenfone Max Pro M1 </h4>
+            <h3>Asus ZenFone Max Pro M1 Summary</h3>
+            <p id="summary">The Asus Zenfone Max Pro M1 was designed especially for India, and offers unmatched specifications considering its price.
+                 The Qualcomm Snapdragon 636 processor is matched with 3GB or 4GB of RAM, and 32GB or 64GB of storage depending on which variant you choose. 
+                 Another highlight is the 5000mAh battery. Camera quality is pretty good, and the phone lasted a full day on one charge but we expected even better.
+                  The software is stock Android rather than ZenUI, and Asus promises frequent updates.</p>
+        </div>
+        <div id="features">
+            <h2 class="center-text">Features</h2>
+            <ul id="all-features-items">
+                <li class="feature-item">
+                    <img src="Assets/monitor.png">
+                    <p>5.99-inch (1080x2160)</p>
+                </li>
+                <li class="feature-item">
+                    <img src="Assets/cpu.png">
+                    <p>Qualcomm Snapdragon 636</p>
+                </li>
+                <li class="feature-item">
+                    <img src="Assets/camera.png">
+                    <p>Front : 8MP <br> Rear : 13MP + 5MP</p>
+                </li>
+                <li class="feature-item">
+                    <img src="Assets/ram.png">
+                    <p> 3 / 4 / 6 GB</p>
+                </li>
+                <li class="feature-item">
+                    <img src="Assets/memory.png">
+                    <p>32 / 64 GB</p>
+                </li>
+                <li class="feature-item">
+                    <img src="Assets/battery.png">
+                    <p>5000 mAh</p>
+                </li>
+                <li class="feature-item">
+                    <img src="Assets/os.png">
+                    <p>Android 8.0 <br> Upgradable to Android 10</p>
+                </li>
+            </ul>
+        </div>
+        <h2 class="center-text">Featured Video</h2>
+        <div id="video-space">
+            <iframe 
+                id="video"
+                width="auto" 
+                height="auto" 
+                src="https://www.youtube.com/embed/cer8WmStj88" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        </div>
+        <div id="pricing">
+            <h2 class="center-text">Pricing</h2>
+            <ul id="all-models" class="grid">
+                <li class="model-price">
+                    <p>3 / 32 GB </p>
+                    <h4>₹ 8,999</h4>
+                    <a href="#">Buy This Model</a>
+                </li>
+                <li class="model-price">
+                    <p>4 / 64 GB </p>
+                    <h4>₹ 9,999</h4>
+                    <a href="#">Buy This Model</a>
+                </li>
+                <li class="model-price">
+                    <p>6 / 64 GB</p>
+                    <h4>₹ 10,999</h4>
+                    <a href="#">Buy This Model</a>
+                </li>
+            </ul>
+        </div>
+        <h2 id="subscribe" class="center-text">Subscribe to News</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label id="email-label" for="email">Enter Your Mail to Subscribe News</label>
+            <input
+            id="email"
+            type="email"                
+            placeholder="Enter your mail"
+            >
+            <input
+            id="submit"
+            type="submit"                
+            value="submit"
+            >
+        </form>
+    </body>
+</html>
